@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make My Tour</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 30px;
+    width: 400px;
+	height:500px;
+    text-align: center;
+	background-color: #d7e7eb;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.my {
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+	font-family: Kablammo;
+}
+
+.tagline {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0 20px;
+}
+
+.image-container img {
+    width: 300px;
+    height: 300px;
+}
+
+.get-started {
+    background-color: #b5c99a;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    color: #333;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.get-started:hover {
+    background-color: #a4b88e;
+}
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <span>make</span>
+            <span class="my">MY</span>
+            <span>tour</span>
+        </div>
+        <p class="tagline">Plan your tour and forget, we will remind you in advance!</p>
+        
+        <div class="image-container">
+            <img src="page1image.jpg" alt="Traveler with Luggage">
+        </div>
+        
+        <button class="get-started">Get started</button>
+    </div>
+</body>
+</html>
