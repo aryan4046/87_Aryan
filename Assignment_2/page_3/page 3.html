@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+			justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 80px auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	     	text-align: center;   
+        }
+        .divider {
+            margin: 20px 0;
+        }
+
+        .divider span {
+            color: #777;
+        }
+
+        .logo-container {
+            position: relative;
+            width: 100%;
+            height: 150px; /* Adjust height as needed */
+            background: url('C:/Users/aryan/OneDrive/Desktop/Assignment_2/page_3/top.jpg') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+		.form-container{
+		    margin-top:30px;
+	    }
+        .header {
+            font-size: 24px;
+            margin: 0;
+	        text-align: right;
+	        font-weight: bold;
+            margin-top: 20px;
+        }
+        .header p {
+            text-align: right;
+	        font-size: 16px;
+	        font-family: inter;
+	        font-weight: lighter;
+			padding-left:300px;
+        }
+		
+        .my {
+            background: red;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+		label {
+            display: block;           
+            margin-top: 20px;
+            text-align: left;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .terms {
+            font-size: 14px;
+			
+        }
+        .terms a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .register-btn {
+            background-color: #ccffcc;
+            color: black;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .social-buttons input {
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-container">
+            <div class="header">
+                <span>make</span>
+                <span class="my">MY</span>
+                <span>tour</span>
+                <p>MakeMyTour is India's online travel space.</p>
+            </div>
+        </div>
+	    <div class="form-container">
+        <h2>Create an account</h2>
+        <p>Fill your information below or register with your social account</p>
+
+        <form>
+        
+		    <label for="Name">First Name</label>
+            <input type="text"  required>
+			<label for="Name">Last Name</label>
+            <input type="text"  required>
+			<label for="email">Email</label>
+            <input type="email"  required>
+			<label for="password">Password</label>
+            <input type="password"  required>
+            <div class="terms">
+			    
+                <input type="checkbox" required>
+                <p>Agree with <a href="#">Terms & Conditions</a></p>
+            </div>
+            <button type="submit" class="register-btn">Register</button>
+        </form>
+
+        <div class="social-buttons">
+            <input type="image" src="google.jpeg" alt="Google">
+            <input type="image" src="facebook.png" alt="Facebook">
+        </div>
+
+        <p>Do you have an account? <a href="#">Sign in</a></p>
+    </div>
+
+</body>
+</html>
